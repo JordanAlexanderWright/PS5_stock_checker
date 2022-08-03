@@ -1,7 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
-chrome_browser = webdriver.Chrome("./chromedriver.exe")
+chrome_browser = webdriver.Chrome("../chromedriver.exe")
 
 chrome_browser.maximize_window()
 chrome_browser.get('https://www.seleniumeasy.com/test/basic-first-form-demo.html')

@@ -9,23 +9,23 @@ from texting import send_text
 
  #Each of these will open google chrome to the page and prepare to scrape info
 
-amazon_browser = webdriver.Chrome("./Chromedriver.exe")
+amazon_browser = webdriver.Chrome("../chromedriver.exe")
 amazon_browser.get('https://www.amazon.com/PlayStation-5-Console/dp/B08FC5L3RG/ref=as_li_ss_tl?ref_=ast_sto_dp&linkCode=sl1&tag=nweditorial-20&linkId=4bd3522a77f201eb46398a875c0ed766&language=en_US')
 a_link = "https://www.amazon.com/PlayStation-5-Console/dp/B08FC5L3RG/ref=as_li_ss_tl?ref_=ast_sto_dp&linkCode=sl1&tag=nweditorial-20&linkId=4bd3522a77f201eb46398a875c0ed766&language=en_US"
 
-target_browser = webdriver.Chrome("./chromedriver.exe")
+target_browser = webdriver.Chrome("../chromedriver.exe")
 target_browser.get('https://www.target.com/p/playstation-5-console/-/A-81114595#lnk=sametab')
 t_link = 'https://www.target.com/p/playstation-5-console/-/A-81114595#lnk=sametab'
 
-bestbuy_browser = webdriver.Chrome("./chromedriver.exe")
+bestbuy_browser = webdriver.Chrome("../chromedriver.exe")
 bestbuy_browser.get('https://www.bestbuy.com/site/sony-playstation-5-console/6426149.p?skuId=6426149')
 bb_link = 'https://www.bestbuy.com/site/sony-playstation-5-console/6426149.p?skuId=6426149'
 
-gamestop_browser = webdriver.Chrome("./chromedriver.exe")
+gamestop_browser = webdriver.Chrome("../chromedriver.exe")
 gamestop_browser.get("https://www.gamestop.com/video-games/playstation-5/consoles/products/playstation-5/11108140.html")
 gs_link = "https://www.gamestop.com/video-games/playstation-5/consoles/products/playstation-5/11108140.html"
 
-walmart_browser = webdriver.Chrome("./Chromedriver.exe")
+walmart_browser = webdriver.Chrome("../chromedriver.exe")
 walmart_browser.get('https://www.walmart.com/ip/PlayStation-5-Console/363472942?irgwc=1&sourceid=imp_TgLSzSSaexyOW1twUx0Mo3b2UkESPd0ZWUMA080&veh=aff&wmlspartner=imp_1943169&clickid=TgLSzSSaexyOW1twUx0Mo3b2UkESPd0ZWUMA080&sharedid=&affiliates_ad_id=565706&campaign_id=9383')
 w_link = 'https://www.walmart.com/ip/PlayStation-5-Console/363472942?irgwc=1&sourceid=imp_TgLSzSSaexyOW1twUx0Mo3b2UkESPd0ZWUMA080&veh=aff&wmlspartner=imp_1943169&clickid=TgLSzSSaexyOW1twUx0Mo3b2UkESPd0ZWUMA080&sharedid=&affiliates_ad_id=565706&campaign_id=9383'
 
